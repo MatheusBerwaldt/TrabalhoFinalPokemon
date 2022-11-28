@@ -7,6 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.DragEvent;
 
 public class lutaPokemon implements Initializable {
 
@@ -41,15 +42,15 @@ public class lutaPokemon implements Initializable {
         
     }
 
-    public void getPokemon(ActionEvent event){
+    public void getPokemon(DragEvent event){
         String mypokemon = cbPokemon1.getValue();
-        imgPokemon1.setImage();;
 
     }
-    public void setImage(){
-        if(
+    //public void setImage(DragEvent event){
+        //if(
+            //getPokemon(event);
             
-        )
-    }
+       // )
+   // }
 
 }
